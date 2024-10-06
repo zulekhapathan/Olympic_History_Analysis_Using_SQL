@@ -8,6 +8,8 @@ where medal='Gold'
 group by team 
 order by cnt desc;
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 --2.display teams, total silver medals they won and year in which they won maximum silver medal
 -- team,total_silver_medals, year_of_max_silver
 with total_silver_medals as (
